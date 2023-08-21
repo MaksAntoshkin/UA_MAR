@@ -7,19 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const clickableSpans = document.querySelectorAll(".amc_op");
-    
-//     clickableSpans.forEach(clickableSpan => {
-//       clickableSpan.addEventListener("click", () => {
-//         const parentDiv = clickableSpan.closest(".container");
-//         const targetDiv = parentDiv.querySelector(".amc_main");
-        
-//         targetDiv.classList.toggle("open_AMC");
-//       });
-//     });
-//   });
-
 document.addEventListener("DOMContentLoaded", () => {
     const containers = document.querySelectorAll(".container");
   
@@ -98,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         
         const targetId = this.getAttribute('href');
-        const target = document.getElementById(targetId.substring(1)); // Видаляємо символ # з id
+        const target = document.getElementById(targetId.substring(1));
         if (target) {
           const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
           window.scrollTo({
