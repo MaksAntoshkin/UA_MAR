@@ -207,6 +207,7 @@ main {
 
 .appendix_main {
     border: 1px solid black;
+    padding: 10px 20px;
 }
 
 @media(max-width: 768px){
