@@ -229,11 +229,16 @@ main {
         position: sticky;
         top: 0;
         padding: 0;
-        flex: 0 0 5%;
+        flex: 0 0 40px;
         border-bottom: 3px solid black;
         border-right: none;
         background-color: white;
     }
+
+    .side_content {
+        top: 10px;
+    }
+
     .side_op {
         text-align: center;
     }

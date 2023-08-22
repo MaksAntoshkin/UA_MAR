@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   document.addEventListener('DOMContentLoaded', () => {
-    let offset = window.innerWidth < 769 ? 80 : 20;
+    let offset = window.innerWidth < 769 ? 60 : 20;
   
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
