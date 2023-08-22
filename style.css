@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-indent: -23px;
     text-align: justify;
+    user-select: none;
 }
 
 h2 {
@@ -165,6 +166,10 @@ main {
 .side_content{
     position: sticky;
     top: 20px;
+}
+
+.side_op {
+    margin: 0;
 }
 
 .side_menu p {
