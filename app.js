@@ -7,6 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.addEventListener("DOMContentLoaded", () => {
+    const clickableSpan = document.querySelector(".side_op");
+    const targetDivSecond = document.querySelector(".main_content");
+    
+    clickableSpan.addEventListener("click", () => {
+      targetDivSecond.classList.toggle("open_side_main");
+    });
+  });
+
 document.addEventListener("DOMContentLoaded", () => {
     const containers = document.querySelectorAll(".container");
   
