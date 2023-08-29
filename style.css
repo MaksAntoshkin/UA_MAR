@@ -20,7 +20,7 @@ p {
 }
 
 .head {
-    width: 36%;
+    width: 400px;
     margin-right: 0;
     margin-left: auto;
     margin-bottom: 40px;
@@ -67,6 +67,66 @@ p {
 
 a {
     color: blue;
+}
+
+.emblem {
+    width: 75px;
+    padding-right: 20px;
+    display: block;
+    margin: 5px auto;
+}
+
+.top_head {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.top_under {
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.changes {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.top_txt {
+    text-indent: 25px;
+    margin-bottom: 90px;
+}
+
+li {
+    text-indent: 25px;
+    list-style: none;
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+table {
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+tr {
+    font-weight: bold;
+    height: 30px;
+}
+
+td {
+    text-indent: 0;
+}
+
+td:nth-child(even){
+    text-align: right;
 }
 
 h4 {
@@ -269,5 +329,13 @@ main {
 
     .side_op {
         text-align: center;
+    }
+
+    table{
+        margin: 40px auto;
+    }
+
+    .head {
+        width: 50%;
     }
 }
