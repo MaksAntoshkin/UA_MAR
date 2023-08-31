@@ -89,6 +89,7 @@ a {
     margin-top: 120px;
     margin-bottom: 40px;
     margin-left: 30px;
+    align-items: center;
 }
 
 .changes {
@@ -100,7 +101,7 @@ a {
 
 .top_txt {
     text-indent: 25px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 li {
@@ -127,6 +128,10 @@ td {
 
 td:nth-child(even){
     text-align: right;
+}
+
+.stamp {
+    width: 120px;
 }
 
 h4 {
@@ -303,6 +308,16 @@ main {
     padding: 10px 20px;
 }
 
+.order {
+    border: none;
+}
+
+.center {
+    color: black;
+    font-size: 15px;
+
+}
+
 @media(max-width: 768px){
     main {
         flex-direction: column;
@@ -337,5 +352,9 @@ main {
 
     .head {
         width: 50%;
+    }
+
+    .stamp {
+        width: 30%;
     }
 }
