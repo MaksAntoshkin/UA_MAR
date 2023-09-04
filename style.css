@@ -232,17 +232,17 @@ h3:nth-child(2) {
     margin: auto;
 }
 
-main {
-    display: flex;
-}
-
 .side_menu {
-    flex: 0 0 100px;
     border-right: 3px solid black;
     color: black;
     padding: 20px 10px;
     transition: 1s ease;
     text-align: center;
+    position: fixed;
+    left: -150px;
+    top: 0;
+    height: 100%;
+    width: 250px;
 }
 
 .side_scroll {
@@ -254,6 +254,7 @@ main {
     cursor: pointer;
     color: black;
     background-color: transparent;
+    padding-left: 190px;
 }
 
 .side_content{
@@ -270,12 +271,14 @@ main {
 }
 
 .main_content{
-    flex: 1;
     padding-left: 10px;
+    margin-left: 100px;
 }
 
 .open_side {
-    flex: 0 0 250px;
+    left: 0;
+    background-color: white;
+    opacity: .9;
 }
 
 .open_side p {
@@ -331,15 +334,24 @@ main {
     .side_menu {
         position: sticky;
         top: 0;
+        right: 0;
         padding: 0;
-        flex: 0 0 40px;
+        width: 100%;
         border-bottom: 3px solid black;
         border-right: none;
         background-color: white;
     }
 
+    .side_menu h4 {
+        padding-left: 20px;
+    }
+
+    .main_content {
+        margin: 0;
+    }
+
     .side_content {
-        top: 10px;
+        padding-top: 10px;
     }
 
     .side_op {
