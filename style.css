@@ -53,6 +53,10 @@ p {
     padding: 0 30px;
 }
 
+.national {
+    font-style: italic;
+}
+
 .side_content .regular {
     padding-right: 10px;
 }
